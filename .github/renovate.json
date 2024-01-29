@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "nuget": {
+        "registryUrls": [
+            "https://api.nuget.org/v3/index.json"
+        ]
+    },
+    "repositories": [
+        "tombiddulph/eShop"
+    ],
+    "packageRules": [],
+    "branchPrefix": "renovate/",
+    "username": "tombiddulph-renovate",
+    "gitAuthor": "Tom Biddulph renovate <bot@tombiddulphrenovate.com>",
+    "onboarding": false,
+    "platform": "github"
+}
